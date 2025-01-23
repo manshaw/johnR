@@ -1,78 +1,79 @@
+// this is dummay response i wrote related to the dashbaord screens you shared
 export const DUMMY_DATABASE = [
   {
     userId: 'johnr',
-    profile:{
+    profile: {
       name: 'John R',
       designation: 'Free Lancer',
-      imageUrl: "https://someurl.jpg"
+      imageUrl: 'https://someurl.jpg',
     },
-    summary:{
-      income:{
+    summary: {
+      income: {
         amount: 1280,
-        currency: "USD",
-        symbol: "$",
+        currency: 'USD',
+        symbol: '$',
         trend: {
-          value: "15%",
-          type: "up"
+          value: '15%',
+          type: 'up',
         },
         period: {
-          text: "Last Qtr",
-          value: "2020 -4Q"
-        }
+          text: 'Last Qtr',
+          value: '2020 -4Q',
+        },
       },
-      expenses:{
+      expenses: {
         amount: 147.56,
-        currency: "USD",
-        symbol: "$",
+        currency: 'USD',
+        symbol: '$',
         trend: {
-          value: "10%",
-          type: "down"
+          value: '10%',
+          type: 'down',
         },
         period: {
-          text: "Last Qtr",
-          value: "2020 -4Q"
-        }
+          text: 'Last Qtr',
+          value: '2020 -4Q',
+        },
       },
-      taxes:{
+      taxes: {
         amount: 91.42,
-        currency: "USD",
-        symbol: "$",
+        currency: 'USD',
+        symbol: '$',
         trend: {
-          value: "20%",
-          type: "up"
+          value: '20%',
+          type: 'up',
         },
         period: {
-          text: "Last Qtr",
-          value: "2020 -4Q"
-        }
+          text: 'Last Qtr',
+          value: '2020 -4Q',
+        },
       },
-      invoices:{
+      invoices: {
         amount: 30,
         trend: {
-          value: "20%",
-          type: "up"
+          value: '20%',
+          type: 'up',
         },
         period: {
-          text: "Last Qtr",
-          value: "2020 -4Q"
-        }
-      }
+          text: 'Last Qtr',
+          value: '2020 -4Q',
+        },
+      },
     },
     graph: {
-      income:{
-        quaterly:{
-          "1st Quarter":[
-            {month: "Jan", value: 430},
-            {month: "Jan", value: 500},
-            {month: "Jan", value: 600},
-            {month: "Jan", value: 700},
-            {month: "Jan", value: 650},
-            {month: "Feb", value: 750},
-            {month: "Feb", value: 750},
-            {month: "Feb", value: 960}
-          ]
-        }
-      }
-    }
-  }
+      income: {
+        quaterly: {
+          '1st Quarter': [
+            { month: 'Jan', value: 430 },
+            { month: 'Jan', value: 500 },
+            { month: 'Jan', value: 600 },
+            { month: 'Jan', value: 700 },
+            { month: 'Jan', value: 650 },
+            { month: 'Feb', value: 750 },
+            { month: 'Feb', value: 750 },
+            { month: 'Feb', value: 960 },
+          ],
+        },
+      },
+    },
+  },
 ];
